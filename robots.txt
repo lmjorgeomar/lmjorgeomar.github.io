@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
 Sitemap: https://lmjorgeomar.github.io/sitemap.xml
