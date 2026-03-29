@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jorge Omar López-Martínez</title>
+<title>Collaborators &amp; Friends – Jorge Omar López-Martínez</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-f418161beb48e0141c760e455f12af2c.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -258,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -274,7 +275,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./collaborators.html"> 
+    <a class="nav-link active" href="./collaborators.html" aria-current="page"> 
 <span class="menu-text">Collaborators</span></a>
   </li>  
   <li class="nav-item">
@@ -313,74 +314,206 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-  <ul>
-  <li><a href="#about-me" id="toc-about-me" class="nav-link active" data-scroll-target="#about-me">About me</a></li>
-  <li><a href="#research-interests" id="toc-research-interests" class="nav-link" data-scroll-target="#research-interests">Research interests</a></li>
-  <li><a href="#affiliations" id="toc-affiliations" class="nav-link" data-scroll-target="#affiliations">Affiliations</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
+<main class="content" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jorge Omar López-Martínez</h1>
-<p class="subtitle lead">Researcher · CentroGeo · Mérida, Yucatán, Mexico</p>
+<h1 class="title">Collaborators &amp; Friends</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/lmjorgeomar" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-  <a href="mailto:lmjorgeomar@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://scholar.google.ca/citations?user=8_dFQe4AAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://orcid.org/0000-0001-7903-8498" class="about-link" rel="" target="">
-     <span class="about-link-text">ORCID</span>
-  </a>
-</div>
+
+
+<style>
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 24px 0;
+}
+.person-card {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.person-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.person-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 12px;
+  display: block;
+  background: #dee2e6;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.person-photo-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2c7a4b, #4aab7a);
+  font-size: 36px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.person-name {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 4px;
+  color: #1a1a1a;
+}
+.person-inst {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.person-country {
+  font-size: 11px;
+  color: #888;
+  margin-bottom: 8px;
+}
+.person-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.person-tag {
+  background: #e8f5ee;
+  color: #2c7a4b;
+  border-radius: 20px;
+  padding: 2px 9px;
+  font-size: 11px;
+}
+.person-links {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.person-link {
+  font-size: 11px;
+  color: #2c7a4b;
+  text-decoration: none;
+  border: 1px solid #2c7a4b;
+  border-radius: 5px;
+  padding: 2px 9px;
+  transition: background 0.15s;
+}
+.person-link:hover {
+  background: #2c7a4b;
+  color: white;
+  text-decoration: none;
+}
+.section-divider {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 32px 0 24px;
+}
+.section-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .people-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 480px) {
+  .people-grid { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="section-label">Collaborators</div>
+<div class="people-grid">
+
+  <div class="person-card">
+    <div class="person-photo-placeholder">🌿</div>
+    <div class="person-name">Pedro Antonio Macario Mendoza</div>
+    <div class="person-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
+    <div class="person-country">🇲🇽 México</div>
+    <div class="person-tags">
+      <span class="person-tag">Agroforestry</span>
+      <span class="person-tag">Tropical ecology</span>
+      <span class="person-tag">Rural development</span>
+    </div>
+    <div class="person-links">
+      <a class="person-link" href="#">Scholar</a>
+    </div>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
+  <div class="person-card">
+    <div class="person-photo-placeholder">🌿</div>
+    <div class="person-name">Edgar González Liceaga</div>
+    <div class="person-inst">Facultad de Ciencias, UNAM</div>
+    <div class="person-country">🇲🇽 México</div>
+    <div class="person-tags">
+      <span class="person-tag">Biodiversity</span>
+      <span class="person-tag">Functional ecology</span>
+      <span class="person-tag">Statistics</span>
+    </div>
+    <div class="person-links">
+      <a class="person-link" href="#">Scholar</a>
+    </div>
+  </div>
 
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>I am a researcher at <strong>CentroGeo</strong> affiliated with the <strong>Investigadores por México program (SECIHTI)</strong>, based in Mérida, Yucatán. My work focuses on spatial analysis of tropical ecosystems in southeastern Mexico.</p>
-<p>I integrate satellite remote sensing, GIS, and ecological modeling to understand <strong>landscape connectivity</strong>, <strong>carbon sequestration</strong>, and land use/cover change in tropical and urban ecosystems.</p>
-<p>I also serve as <strong>Handling Editor</strong> for <em>Frontiers in Forests and Global Change</em> (Tropical Forests section).</p>
-</section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research interests</h2>
-<ul>
-<li>🌿 Carbon in tropical ecosystems</li>
-<li>🛰 Remote sensing &amp; species diversity</li>
-<li>🦜 Urban biodiversity &amp; acoustic landscape monitoring</li>
-<li>🗺 Landscape ecology</li>
-</ul>
-</section>
-<section id="affiliations" class="level2">
-<h2 data-anchor-id="affiliations">Affiliations</h2>
-<ul>
-<li><strong>CentroGeo</strong> — Investigador por México · SECIHTI</li>
-<li><strong>Frontiers in Forests &amp; Global Change</strong> — Handling Editor</li>
-</ul>
+  <div class="person-card">
+    <div class="person-photo-placeholder">🌿</div>
+    <div class="person-name">Benedicto Vargas Larreta</div>
+    <div class="person-inst">Instituto Tecnológico del Salto (ITES)</div>
+    <div class="person-country">🇲🇽 Durango, México</div>
+    <div class="person-tags">
+      <span class="person-tag">Forest biometrics</span>
+      <span class="person-tag">Biomass</span>
+      <span class="person-tag">Carbon stocks</span>
+    </div>
+    <div class="person-links">
+      <a class="person-link" href="#">Scholar</a>
+    </div>
+  </div>
 
-
-</section>
-</main></div>
 </div>
- <!-- /main -->
+
+<hr class="section-divider">
+<div class="section-label">Friends &amp; Colleagues</div>
+<div class="people-grid">
+
+  <!-- Add friends here following the same card structure -->
+
+</div>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -396,6 +529,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
