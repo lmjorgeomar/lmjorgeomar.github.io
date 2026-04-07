@@ -1,12 +1,11 @@
-/* css styles */
+writeLines('/* css styles */
 .navbar-brand.navbar-brand-logo img {
   height: 50px !important;
   max-height: 50px !important;
   width: auto !important;
 }
-
 .navbar-logo {
   height: 50px !important;
   max-height: 50px !important;
   width: auto !important;
-}
+}', "styles.css")
