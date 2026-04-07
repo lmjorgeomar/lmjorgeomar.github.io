@@ -1,5 +1,12 @@
 /* css styles */
+.navbar-brand.navbar-brand-logo img {
+  height: 50px !important;
+  max-height: 50px !important;
+  width: auto !important;
+}
+
 .navbar-logo {
-  height: 40px !important;
-  width: 40px !important;
+  height: 50px !important;
+  max-height: 50px !important;
+  width: auto !important;
 }
