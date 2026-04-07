@@ -398,12 +398,24 @@ document.addEventListener("DOMContentLoaded", function() {
   if (toc) {
     var img = document.createElement("img");
     img.src = "img/sers_lab_icon.svg";
-    img.style.width = "85%";
+    img.style.width = "80%";
     img.style.display = "block";
     img.style.margin = "20px auto 0";
+    var name = document.createElement("p");
+    name.innerHTML = "<strong>SE&amp;RS Lab</strong>";
+    name.style.textAlign = "center";
+    name.style.fontSize = "13px";
+    name.style.margin = "8px 0 2px";
+    var desc = document.createElement("p");
+    desc.innerHTML = "Socioecological &amp;<br>Remote Sensing Laboratory";
+    desc.style.textAlign = "center";
+    desc.style.fontSize = "11px";
+    desc.style.color = "#666";
+    desc.style.margin = "0 8px";
+    desc.style.lineHeight = "1.5";
     toc.appendChild(img);
-  } else {
-    console.log("TOC not found");
+    toc.appendChild(name);
+    toc.appendChild(desc);
   }
 });
 </script>
