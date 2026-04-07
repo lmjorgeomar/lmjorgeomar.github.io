@@ -383,8 +383,18 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  var toc = document.querySelector(".sidebar-navigation");
-  if (!toc) toc = document.querySelector("#quarto-sidebar");
+  var selectors = [
+    "#quarto-margin-sidebar",
+    ".quarto-margin-sidebar", 
+    "#quarto-sidebar",
+    ".sidebar-navigation",
+    ".toc-active"
+  ];
+  var toc = null;
+  for (var i = 0; i < selectors.length; i++) {
+    toc = document.querySelector(selectors[i]);
+    if (toc) break;
+  }
   if (toc) {
     var img = document.createElement("img");
     img.src = "img/sers_lab_logo_dark.svg";
@@ -392,6 +402,8 @@ document.addEventListener("DOMContentLoaded", function() {
     img.style.padding = "16px";
     img.style.marginTop = "20px";
     toc.appendChild(img);
+  } else {
+    console.log("TOC not found");
   }
 });
 </script>
