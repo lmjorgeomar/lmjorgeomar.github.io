@@ -1,0 +1,23 @@
+<svg width="600" height="200" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="0" y="0" width="600" height="200" rx="16" fill="#0d1f2d"/>
+
+  <g transform="translate(100, 100)">
+    <circle cx="0" cy="0" r="78" fill="#0d2b3e" stroke="#1a6b8a" stroke-width="2"/>
+    <ellipse cx="0" cy="32" rx="62" ry="21" fill="#1a4d2e"/>
+    <ellipse cx="0" cy="16" rx="48" ry="16" fill="#2d7a4b"/>
+    <ellipse cx="0" cy="4"  rx="32" ry="11" fill="#4aab7a"/>
+    <g transform="translate(22, -64) rotate(25)">
+      <rect x="-5" y="-8" width="10" height="15" rx="1.5" fill="#5bc8f5"/>
+      <rect x="-16" y="-2" width="10" height="4" rx="1" fill="#5bc8f5" opacity="0.75"/>
+      <rect x="6"  y="-2" width="10" height="4" rx="1" fill="#5bc8f5" opacity="0.75"/>
+      <circle cx="0" cy="0" r="2" fill="#0d2b3e"/>
+    </g>
+  </g>
+
+  <text x="200" y="82" font-family="Georgia, serif" font-size="54" font-weight="700" fill="white" letter-spacing="2">SE&amp;RS</text>
+  <text x="202" y="112" font-family="Arial, sans-serif" font-size="16" fill="#4aab7a" letter-spacing="10">LAB</text>
+  <line x1="200" y1="124" x2="575" y2="124" stroke="#1a6b8a" stroke-width="1"/>
+  <text x="200" y="144" font-family="Arial, sans-serif" font-size="12" fill="#5bc8f5" letter-spacing="0.5">Socioecological &amp; Remote Sensing</text>
+
+</svg>
