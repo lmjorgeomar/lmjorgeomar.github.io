@@ -1,5 +1,5 @@
 /* css styles */
 .navbar-logo {
-  max-height: 80px;
-  width: auto;
+  height: 50px !important;
+  width: auto !important;
 }
