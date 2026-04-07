@@ -360,10 +360,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="about-contents"><main class="content" id="quarto-document-content">
 
 
-<div id="about-entity">
-<p><img src="img/sers_lab_logo_dark.svg" class="img-fluid" width="250"></p>
-</div>
-<hr>
 <section id="about-me" class="level2">
 <h2 data-anchor-id="about-me">About me</h2>
 <p>I am a researcher at <strong>CentroGeo</strong> affiliated with the <strong>Investigadores por México program (SECIHTI)</strong>, based in Mérida, Yucatán. My work focuses on spatial analysis of tropical ecosystems in southeastern Mexico.</p>
@@ -385,6 +381,20 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>CentroGeo</strong> — Investigador por México · SECIHTI</li>
 <li><strong>Frontiers in Forests &amp; Global Change</strong> — Handling Editor</li>
 </ul>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var toc = document.querySelector(".sidebar-navigation");
+  if (!toc) toc = document.querySelector("#quarto-sidebar");
+  if (toc) {
+    var img = document.createElement("img");
+    img.src = "img/sers_lab_logo_dark.svg";
+    img.style.width = "100%";
+    img.style.padding = "16px";
+    img.style.marginTop = "20px";
+    toc.appendChild(img);
+  }
+});
+</script>
 
 
 </section>
