@@ -4,7 +4,7 @@
     "href": "collaborators.html",
     "title": "Collaborators and friends",
     "section": "",
-    "text": "Collaborators\n\n\n\n    \n    Gerald A. Islebe\n    El Colegio de la Frontera Sur (ECOSUR)\n    🇲🇽 México\n    \n      Paleoeclogy\n      Paleoclimatology\n      Tropical ecology\n    \n    \n      Scholar\n    \n  \n\n\n    🌿\n    Pedro A. Macario Mendoza\n    El Colegio de la Frontera Sur (ECOSUR)\n    🇲🇽 México\n    \n      Agroforestry\n      Tropical ecology\n      Rural development\n    \n    \n      Scholar\n    \n  \n\n  \n    \n    Edgar González Liceaga\n    Facultad de Ciencias, UNAM\n    🇲🇽 México\n    \n      Biodiversity\n      Population ecology\n      Statistics\n    \n    \n      Scholar\n    \n  \n\n  \n    \n    Benedicto Vargas Larreta\n    Instituto Tecnológico del Salto (ITES)\n    🇲🇽 Durango, México\n    \n      Forest biometrics\n      Biomass\n      Carbon stocks\n    \n    \n      Scholar\n    \n  \n\n\n    \n    Hugo Carlos Martínez\n    Centro Geo\n    🇲🇽 México\n    \n      Bayesian modeling\n      Deep learning\n      Spatial Analysis\n    \n    \n      Scholar\n    \n  \n\n  \n    \n    Diana Gonzalez Rodriguez\n    Centro Geo\n    🇲🇽 México\n    \n      Environmental Health\n      Sustainability\n      Spatial Analysis\n    \n    \n      Scholar\n    \n  \n\n\n\n\nFriends & Colleagues"
+    "text": "Collaborators\n\n\n\n    \n    Gerald A. Islebe\n    El Colegio de la Frontera Sur (ECOSUR)\n    🇲🇽 México\n    \n      Paleoeclogy\n      Paleoclimatology\n      Tropical ecology\n    \n    \n      Scholar\n    \n  \n\n\n    🌿\n    Pedro A. Macario Mendoza\n    El Colegio de la Frontera Sur (ECOSUR)\n    🇲🇽 México\n    \n      Agroforestry\n      Tropical ecology\n      Rural development\n    \n    \n      Scholar\n    \n  \n\n  \n    \n    Edgar González Liceaga\n    Facultad de Ciencias, UNAM\n    🇲🇽 México\n    \n      Biodiversity\n      Population ecology\n      Statistics\n    \n    \n      Scholar\n    \n  \n\n  \n    \n    Benedicto Vargas Larreta\n    Instituto Tecnológico del Salto (ITES)\n    🇲🇽 Durango, México\n    \n      Forest biometrics\n      Biomass\n      Carbon stocks\n    \n    \n      Scholar\n    \n  \n\n\n    \n    BEtza Palafox Juarez\n    Centro Geo\n    🇲🇽 México\n    \n      Landscape ecology\n      Environment and onservatio\n      GIS\n    \n    \n      Scholar\n    \n  \n  \n\n    \n    Hugo Carlos Martínez\n    Centro Geo\n    🇲🇽 México\n    \n      Bayesian modeling\n      Deep learning\n      Spatial Analysis\n    \n    \n      Scholar\n    \n  \n\n\n\n\nFriends & Colleagues"
   },
   {
     "objectID": "about.html",
@@ -98,18 +98,18 @@
     "text": "Book Chapters\nLópez-Martínez, J.O., Huechacona-Ruiz, H.A., Hernández-Stefanoni, J.L., Macario-Mendoza, P.A. (2024).\nMonitorear la naturaleza desde el espacio: la percepción remota y sus aplicaciones en la estimación de la diversidad biológica y la biomasa.\nIn Arellano, J., Lazcano, H. y Callejas, M. (Eds.), Una breve introducción a la percepción remota (pp. 55–68). Editorial ECOSUR.\n\nVargas-Larreta, B., Aguirre-Calderón, O.A., et al., López-Martínez, J.O., et al. (2018).\nManual del Sistema Biométrico Forestal (SiBiFor): Herramientas para el manejo de los bosques templados y tropicales de México.\nComisión Nacional Forestal."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#about-me-1",
+    "href": "index.html#about-me-1",
     "title": "Jorge Omar López-Martínez",
-    "section": "",
-    "text": "I am a researcher at CentroGeo affiliated with the Investigadores por México program (SECIHTI), based in Mérida, Yucatán. My work focuses on spatial analysis of tropical ecosystems in southeastern Mexico.\nI integrate satellite remote sensing, GIS, and ecological modeling to understand landscape connectivity, carbon sequestration, and land use/cover change in tropical and urban ecosystems.\nI also serve as Handling Editor for Frontiers in Forests and Global Change (Tropical Forests section)."
+    "section": "About me",
+    "text": "About me"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
+    "objectID": "index.html#about-me-2",
+    "href": "index.html#about-me-2",
     "title": "Jorge Omar López-Martínez",
-    "section": "",
-    "text": "I am a researcher at CentroGeo affiliated with the Investigadores por México program (SECIHTI), based in Mérida, Yucatán. My work focuses on spatial analysis of tropical ecosystems in southeastern Mexico.\nI integrate satellite remote sensing, GIS, and ecological modeling to understand landscape connectivity, carbon sequestration, and land use/cover change in tropical and urban ecosystems.\nI also serve as Handling Editor for Frontiers in Forests and Global Change (Tropical Forests section)."
+    "section": "About me",
+    "text": "About me\nMy laboratory (SE&RS Lab) is based at the Center for Research in Geospatial Information Sciences (CentroGeo), in Mérida, Mexico. I study how natural, urban, and peri-urban ecosystems change over time, and what these changes mean for biodiversity, carbon storage, ecosystem functioning, and the services that ecosystems provide to human societies.\nI work at the intersection of satellite remote sensing, spatial analysis, and field ecology to understand how land-use change — deforestation, urban expansion, agricultural intensification — reshapes landscape structure and connectivity, and how these structural shifts translate into ecological consequences and losses in ecosystem services.\nTo address these questions, I develop and apply remote sensing tools and AI algorithms to map and monitor ecosystem properties at scales relevant to conservation and management decisions. I also use systematic review and meta-analysis methods to synthesise evidence, identify knowledge gaps, and test competing hypotheses."
   },
   {
     "objectID": "index.html#research-interests",
@@ -123,7 +123,7 @@
     "href": "index.html#affiliations",
     "title": "Jorge Omar López-Martínez",
     "section": "Affiliations",
-    "text": "Affiliations\n\nCentroGeo — Investigador por México · SECIHTI\nFrontiers in Forests & Global Change — Handling Editor"
+    "text": "Affiliations\n\nInvestigador por México (IxM)· SECIHTI\nCentroGeo\nTropifor"
   },
   {
     "objectID": "publications.html",
