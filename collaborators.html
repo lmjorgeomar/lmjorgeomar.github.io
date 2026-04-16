@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Friends and colleagues – SE&amp;RS Lab</title>
+<title>Collaborators – SE&amp;RS Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -323,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Friends and colleagues</h1>
+<h1 class="title">Collaborators</h1>
 </div>
 
 
@@ -341,234 +341,191 @@ ul.task-list li input[type="checkbox"] {
 
 
 <style>
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+.collab-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
   gap: 20px;
-  margin: 24px 0;
-}
-.person-card {
   background: #f8f9fa;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   padding: 20px;
-  text-align: center;
+  margin-bottom: 16px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
-.person-card:hover {
-  transform: translateY(-3px);
+.collab-card:hover {
+  transform: translateY(-2px);
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
-.person-photo {
-  width: 200px;
-  height: 200px;
+.collab-photo {
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 12px;
-  display: block;
-  background: #dee2e6;
+  flex-shrink: 0;
   border: 3px solid #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-.person-photo-placeholder {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 0 auto 12px;
+.collab-info {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #2c7a4b, #4aab7a);
-  font-size: 36px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-direction: column;
+  justify-content: flex-start;
 }
-.person-name {
+.collab-name {
   font-weight: 700;
   font-size: 20px;
-  margin-bottom: 4px;
   color: #1a1a1a;
+  margin-bottom: 4px;
 }
-.person-inst {
-  font-size: 15px;
+.collab-inst {
+  font-size: 16px;
   color: #555;
   margin-bottom: 4px;
-  line-height: 1.4;
 }
-.person-country {
-  font-size: 15px;
+.collab-country {
+  font-size: 14px;
   color: #888;
   margin-bottom: 8px;
 }
-.person-tags {
+.collab-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
-  justify-content: center;
+  gap: 6px;
   margin-bottom: 10px;
 }
-.person-tag {
+.collab-tag {
   background: #e8f5ee;
   color: #2c7a4b;
   border-radius: 20px;
-  padding: 2px 9px;
-  font-size: 15px;
+  padding: 4px 12px;
+  font-size: 13px;
 }
-.person-links {
-  display: flex;
-  gap: 8px;
-  justify-content: center;
-}
-.person-link {
-  font-size: 11px;
+.collab-link {
+  font-size: 13px;
   color: #2c7a4b;
   text-decoration: none;
   border: 1px solid #2c7a4b;
   border-radius: 5px;
-  padding: 2px 9px;
+  padding: 4px 12px;
   transition: background 0.15s;
+  display: inline-block;
 }
-.person-link:hover {
+.collab-link:hover {
   background: #2c7a4b;
   color: white;
   text-decoration: none;
 }
-.section-divider {
-  border: none;
-  border-top: 2px solid #e0e0e0;
-  margin: 32px 0 24px;
-}
 .section-label {
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   color: #888;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 16px;
-}
-@media (max-width: 768px) {
-  .people-grid { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 480px) {
-  .people-grid { grid-template-columns: 1fr; }
+  margin: 24px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e0e0e0;
 }
 </style>
-
-<div class="section-label">Collaborators</div>
-<div class="people-grid">
-
-<div class="person-card">
-    <img class="person-photo" src="img/gerald_islebe.jpeg" alt="Gerald_Islebe" div="">
-    <div class="person-name">Gerald A. Islebe</div>
-    <div class="person-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
-    <div class="person-country">Chetumal, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Paleoeclogy</span>
-      <span class="person-tag">Paleoclimatology</span>
-      <span class="person-tag">Tropical ecology</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" data-href="https://scholar.google.com/citations?user=s4LfZrYAAAAJ&amp;hl=en&amp;view_op=list_works&amp;sortby=pubdate" onclick="window.open(this.dataset.href)">Scholar</a>
-    </div>
-  </div>
-
-<div class="person-card">
-    <div class="person-photo-placeholder">🌿</div>
-    <div class="person-name">Pedro A. Macario Mendoza</div>
-    <div class="person-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
-    <div class="person-country"> México</div>
-    <div class="person-tags">
-      <span class="person-tag">Agroforestry</span>
-      <span class="person-tag">Tropical ecology</span>
-      <span class="person-tag">Rural development</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" data-href="https://scholar.google.com/citations?hl=es&amp;user=P5-Nya4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" onclick="window.open(this.dataset.href)">Scholar</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img class="person-photo" src="img/edgar_gonzalez.jpg" alt="Edgar González Liceaga">
-    <div class="person-name">Edgar González Liceaga</div>
-    <div class="person-inst">Facultad de Ciencias, UNAM</div>
-    <div class="person-country">CMDX, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Biodiversity</span>
-      <span class="person-tag">Population ecology</span>
-      <span class="person-tag">Statistics</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" data-href="https://scholar.google.com/citations?hl=es&amp;user=T-QAgMYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" onclick="window.open(this.dataset.href)">Scholar</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img class="person-photo" src="img/bene.jpeg" alt="Benedicto Vargas Larreta">
-    <div class="person-name">Benedicto Vargas Larreta</div>
-    <div class="person-inst">Instituto Tecnológico del Salto (ITES)</div>
-    <div class="person-country">Durango, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Forest biometrics</span>
-      <span class="person-tag">Biomass</span>
-      <span class="person-tag">Carbon stocks</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" data-href="https://scholar.google.com/citations?hl=es&amp;user=R2KBES4AAAAJ&amp;view_op=list_works&amp;sortby=pubdate" onclick="window.open(this.dataset.href)">Scholar</a>
-    </div>
-  </div>
-
-  <div class="person-card">
-    <img class="person-photo" src="img/pala.jpeg" alt="Betza Palafox Juérez">
-    <div class="person-name">Betza Palafox Juárez</div>
-    <div class="person-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
-    <div class="person-country">Chetumal, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Landscape ecology</span>
-      <span class="person-tag">Conservation</span>
-      <span class="person-tag">GIS</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" href="#">Scholar</a>
-    </div>
-  </div>
-
-<div class="person-card">
-    <img class="person-photo" src="img/hugo_carlos.jpeg" alt="Hugo Carlos Martínez">
-    <div class="person-name">Hugo Carlos Martínez</div>
-    <div class="person-inst">Centro Geo, Yucatán</div>
-    <div class="person-country"> Mérida, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Bayesian models</span>
-      <span class="person-tag">Remote sensing</span>
-      <span class="person-tag">Spatial Analysis</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" href="#">Scholar</a>
-    </div>
-  </div>
-
-<div class="person-card">
-    <img class="person-photo" src="img/Fabien.jpeg" alt="Fabien Chabonier">
-    <div class="person-name">Fabien Charbonier</div>
-    <div class="person-inst">Facultada de Ciencias Forestales, UANL</div>
-    <div class="person-country"> Linares, México</div>
-    <div class="person-tags">
-      <span class="person-tag">Ecophysiology</span>
-      <span class="person-tag">Agriculture</span>
-      <span class="person-tag">Climate change</span>
-    </div>
-    <div class="person-links">
-      <a class="person-link" href="#">Scholar</a>
-    </div>
-  </div>
-
+<div class="section-label">
+Collaborators
 </div>
-
-<hr class="section-divider">
-<div class="section-label"></div>
-<div class="people-grid">
-
-  <!-- Add friends here following the same card structure -->
-
+<div class="collab-card">
+<img class="collab-photo" src="img/gerald_islebe.jpeg" alt="Gerald Islebe">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Gerald A. Islebe&lt;/div&gt;
+&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
+&lt;div class="collab-country"&gt;Chetumal, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Paleoecology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Paleoclimatology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Tropical ecology&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="https://scholar.google.com/citations?user=s4LfZrYAAAAJ&amp;hl=en" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/pedro_macario.jpeg" alt="Pedro Macario Mendoza">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Pedro A. Macario Mendoza&lt;/div&gt;
+&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
+&lt;div class="collab-country"&gt;México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Agroforestry&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Tropical ecology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Rural development&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=P5-Nya4AAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/edgar_gonzalez.jpg" alt="Edgar González Liceaga">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Edgar González Liceaga&lt;/div&gt;
+&lt;div class="collab-inst"&gt;Facultad de Ciencias, UNAM&lt;/div&gt;
+&lt;div class="collab-country"&gt;CDMX, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Biodiversity&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Population ecology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Statistics&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=T-QAgMYAAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/bene.jpeg" alt="Benedicto Vargas Larreta">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Benedicto Vargas Larreta&lt;/div&gt;
+&lt;div class="collab-inst"&gt;Instituto Tecnológico del Salto (ITES)&lt;/div&gt;
+&lt;div class="collab-country"&gt;Durango, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Forest biometrics&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Biomass&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Carbon stocks&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=R2KBES4AAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/pala.jpeg" alt="Betza Palafox Juárez">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Betza Palafox Juárez&lt;/div&gt;
+&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
+&lt;div class="collab-country"&gt;Chetumal, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Landscape ecology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Conservation&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;GIS&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/hugo_carlos.jpeg" alt="Hugo Carlos Martínez">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Hugo Carlos Martínez&lt;/div&gt;
+&lt;div class="collab-inst"&gt;Centro Geo, Yucatán&lt;/div&gt;
+&lt;div class="collab-country"&gt;Mérida, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Bayesian models&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Remote sensing&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Spatial analysis&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
+</div>
+<div class="collab-card">
+<img class="collab-photo" src="img/Fabien.jpeg" alt="Fabien Charbonier">
+<div class="collab-info">
+<pre><code>&lt;div class="collab-name"&gt;Fabien Charbonier&lt;/div&gt;
+&lt;div class="collab-inst"&gt;Facultad de Ciencias Forestales, UANL&lt;/div&gt;
+&lt;div class="collab-country"&gt;Linares, México&lt;/div&gt;
+&lt;div class="collab-tags"&gt;
+  &lt;span class="collab-tag"&gt;Ecophysiology&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Agriculture&lt;/span&gt;
+  &lt;span class="collab-tag"&gt;Climate change&lt;/span&gt;
+&lt;/div&gt;
+&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
+</div>
 </div>
 
 
