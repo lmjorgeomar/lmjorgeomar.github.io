@@ -77,6 +77,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="collaborators.css">
 </head>
 
 <body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -340,192 +341,111 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-.collab-card {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 20px;
-  background: #f8f9fa;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 16px;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.collab-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-.collab-photo {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-  border: 3px solid #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-.collab-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.collab-name {
-  font-weight: 700;
-  font-size: 20px;
-  color: #1a1a1a;
-  margin-bottom: 4px;
-}
-.collab-inst {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 4px;
-}
-.collab-country {
-  font-size: 14px;
-  color: #888;
-  margin-bottom: 8px;
-}
-.collab-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 10px;
-}
-.collab-tag {
-  background: #e8f5ee;
-  color: #2c7a4b;
-  border-radius: 20px;
-  padding: 4px 12px;
-  font-size: 13px;
-}
-.collab-link {
-  font-size: 13px;
-  color: #2c7a4b;
-  text-decoration: none;
-  border: 1px solid #2c7a4b;
-  border-radius: 5px;
-  padding: 4px 12px;
-  transition: background 0.15s;
-  display: inline-block;
-}
-.collab-link:hover {
-  background: #2c7a4b;
-  color: white;
-  text-decoration: none;
-}
-.section-label {
-  font-size: 20px;
-  font-weight: 600;
-  color: #888;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  margin: 24px 0 12px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #e0e0e0;
-}
-</style>
-<div class="section-label">
-Collaborators
-</div>
+<div class="section-label">Collaborators</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/gerald_islebe.jpeg" alt="Gerald Islebe">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Gerald A. Islebe&lt;/div&gt;
-&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
-&lt;div class="collab-country"&gt;Chetumal, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Paleoecology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Paleoclimatology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Tropical ecology&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="https://scholar.google.com/citations?user=s4LfZrYAAAAJ&amp;hl=en" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/gerald_islebe.jpeg" alt="Gerald Islebe">
+  <div class="collab-info">
+    <div class="collab-name">Gerald A. Islebe</div>
+    <div class="collab-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
+    <div class="collab-country">Chetumal, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Paleoecology</span>
+      <span class="collab-tag">Paleoclimatology</span>
+      <span class="collab-tag">Tropical ecology</span>
+    </div>
+    <a class="collab-link" href="https://scholar.google.com/citations?user=s4LfZrYAAAAJ&amp;hl=en" target="_blank">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/pedro_macario.jpeg" alt="Pedro Macario Mendoza">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Pedro A. Macario Mendoza&lt;/div&gt;
-&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
-&lt;div class="collab-country"&gt;México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Agroforestry&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Tropical ecology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Rural development&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=P5-Nya4AAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/pedro_macario.jpeg" alt="Pedro Macario Mendoza">
+  <div class="collab-info">
+    <div class="collab-name">Pedro A. Macario Mendoza</div>
+    <div class="collab-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
+    <div class="collab-country">México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Agroforestry</span>
+      <span class="collab-tag">Tropical ecology</span>
+      <span class="collab-tag">Rural development</span>
+    </div>
+    <a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=P5-Nya4AAAAJ" target="_blank">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/edgar_gonzalez.jpg" alt="Edgar González Liceaga">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Edgar González Liceaga&lt;/div&gt;
-&lt;div class="collab-inst"&gt;Facultad de Ciencias, UNAM&lt;/div&gt;
-&lt;div class="collab-country"&gt;CDMX, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Biodiversity&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Population ecology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Statistics&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=T-QAgMYAAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/edgar_gonzalez.jpg" alt="Edgar González Liceaga">
+  <div class="collab-info">
+    <div class="collab-name">Edgar González Liceaga</div>
+    <div class="collab-inst">Facultad de Ciencias, UNAM</div>
+    <div class="collab-country">CDMX, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Biodiversity</span>
+      <span class="collab-tag">Population ecology</span>
+      <span class="collab-tag">Statistics</span>
+    </div>
+    <a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=T-QAgMYAAAAJ" target="_blank">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/bene.jpeg" alt="Benedicto Vargas Larreta">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Benedicto Vargas Larreta&lt;/div&gt;
-&lt;div class="collab-inst"&gt;Instituto Tecnológico del Salto (ITES)&lt;/div&gt;
-&lt;div class="collab-country"&gt;Durango, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Forest biometrics&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Biomass&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Carbon stocks&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=R2KBES4AAAAJ" target="_blank"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/bene.jpeg" alt="Benedicto Vargas Larreta">
+  <div class="collab-info">
+    <div class="collab-name">Benedicto Vargas Larreta</div>
+    <div class="collab-inst">Instituto Tecnológico del Salto (ITES)</div>
+    <div class="collab-country">Durango, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Forest biometrics</span>
+      <span class="collab-tag">Biomass</span>
+      <span class="collab-tag">Carbon stocks</span>
+    </div>
+    <a class="collab-link" href="https://scholar.google.com/citations?hl=es&amp;user=R2KBES4AAAAJ" target="_blank">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/pala.jpeg" alt="Betza Palafox Juárez">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Betza Palafox Juárez&lt;/div&gt;
-&lt;div class="collab-inst"&gt;El Colegio de la Frontera Sur (ECOSUR)&lt;/div&gt;
-&lt;div class="collab-country"&gt;Chetumal, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Landscape ecology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Conservation&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;GIS&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/pala.jpeg" alt="Betza Palafox Juárez">
+  <div class="collab-info">
+    <div class="collab-name">Betza Palafox Juárez</div>
+    <div class="collab-inst">El Colegio de la Frontera Sur (ECOSUR)</div>
+    <div class="collab-country">Chetumal, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Landscape ecology</span>
+      <span class="collab-tag">Conservation</span>
+      <span class="collab-tag">GIS</span>
+    </div>
+    <a class="collab-link" href="#">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/hugo_carlos.jpeg" alt="Hugo Carlos Martínez">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Hugo Carlos Martínez&lt;/div&gt;
-&lt;div class="collab-inst"&gt;Centro Geo, Yucatán&lt;/div&gt;
-&lt;div class="collab-country"&gt;Mérida, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Bayesian models&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Remote sensing&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Spatial analysis&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
+  <img class="collab-photo" src="img/hugo_carlos.jpeg" alt="Hugo Carlos Martínez">
+  <div class="collab-info">
+    <div class="collab-name">Hugo Carlos Martínez</div>
+    <div class="collab-inst">Centro Geo, Yucatán</div>
+    <div class="collab-country">Mérida, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Bayesian models</span>
+      <span class="collab-tag">Remote sensing</span>
+      <span class="collab-tag">Spatial analysis</span>
+    </div>
+    <a class="collab-link" href="#">Scholar</a>
+  </div>
 </div>
-</div>
+
 <div class="collab-card">
-<img class="collab-photo" src="img/Fabien.jpeg" alt="Fabien Charbonier">
-<div class="collab-info">
-<pre><code>&lt;div class="collab-name"&gt;Fabien Charbonier&lt;/div&gt;
-&lt;div class="collab-inst"&gt;Facultad de Ciencias Forestales, UANL&lt;/div&gt;
-&lt;div class="collab-country"&gt;Linares, México&lt;/div&gt;
-&lt;div class="collab-tags"&gt;
-  &lt;span class="collab-tag"&gt;Ecophysiology&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Agriculture&lt;/span&gt;
-  &lt;span class="collab-tag"&gt;Climate change&lt;/span&gt;
-&lt;/div&gt;
-&lt;a class="collab-link" href="#"&gt;Scholar&lt;/a&gt;</code></pre>
-</div>
+  <img class="collab-photo" src="img/Fabien.jpeg" alt="Fabien Charbonier">
+  <div class="collab-info">
+    <div class="collab-name">Fabien Charbonier</div>
+    <div class="collab-inst">Facultad de Ciencias Forestales, UANL</div>
+    <div class="collab-country">Linares, México</div>
+    <div class="collab-tags">
+      <span class="collab-tag">Ecophysiology</span>
+      <span class="collab-tag">Agriculture</span>
+      <span class="collab-tag">Climate change</span>
+    </div>
+    <a class="collab-link" href="#">Scholar</a>
+  </div>
 </div>
 
 
